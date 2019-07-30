@@ -34,7 +34,7 @@ class DataProvider extends Component {
 }
 
 export default DataProvider
-
+console.log("test")
 
 export const withData = C => props => (
     <DataContext.Consumer>
