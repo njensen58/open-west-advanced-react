@@ -16,6 +16,8 @@ import DataProvider from './1-context-hoc-final/DataProvider.js'
 // HTTP request using hooks
 // import App from './3-hooks-final/use-effect-example/App-fetch.js'
 
+
+// HOCs are SO outdated! Get with the times, man!
 ReactDOM.render(
     <DataProvider>
         <App/>
