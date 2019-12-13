@@ -5,6 +5,8 @@ import ReactDOM from "react-dom"
 import App from "./1-context-hoc-final/App.js"
 import DataProvider from './1-context-hoc-final/DataProvider.js'
 
+// COMMENTS
+
 // RENDER PROPS EXAMPLE
 // import App from "./2-render-props-start/App.js"
 

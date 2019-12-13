@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@6.11.3
+3 info using node@v10.17.0
+4 verbose config Skipping project config: /home/runner/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle open-west@0.1.0~prestart: open-west@0.1.0
+7 info lifecycle open-west@0.1.0~start: open-west@0.1.0
+8 verbose lifecycle open-west@0.1.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle open-west@0.1.0~start: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/runner/node_modules/.bin:/home/runner/.apt/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle open-west@0.1.0~start: CWD: /home/runner
+11 silly lifecycle open-west@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+12 info lifecycle open-west@0.1.0~start: Failed to exec start script
+13 verbose stack Error: open-west@0.1.0 start: `react-scripts start`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid open-west@0.1.0
+15 verbose cwd /home/runner
+16 verbose Linux 4.15.0-1036-gcp
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "start"
+18 verbose node v10.17.0
+19 verbose npm  v6.11.3
+20 error code ELIFECYCLE
+21 error syscall spawn
+22 error file sh
+23 error errno ENOENT
+24 error open-west@0.1.0 start: `react-scripts start`
+24 error spawn ENOENT
+25 error Failed at the open-west@0.1.0 start script.
+25 error This is probably not a problem with npm. There is likely additional logging output above.
+26 verbose exit [ 1, true ]
